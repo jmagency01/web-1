@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация пользователя</title>
+    <link rel="stylesheet" href="../CSS/base.css">
+</head>
+<body>
+<img src="../img/logo_mini.jpg" align="left" width="5%" hspace="15">
+
+<nav>
+    <ul id="menu">
+        <li><a href="../index.html">Главная</a></li>
+        <li><a  href="html/typography.html"> Найти печатника</a></li>
+        <li><a  href="html/order.html"> Найти заказ</a></li>
+        <li><a href="html/aboutprint.html"> Все о печати</a></li>
+        <li><a href="html/aboutus.html"> О проекте</a></li>
+        <li><a href="html/cabinet.html"> Вход</a></li>
+        <b><li>Регистрация</li></b>
+    </ul>
+</nav>
+<h1>Форма регистрации клиента</h1>
+<form action="#" method="post">
+    <fieldset>
+        <LEGEND>Регистрация</LEGEND>        <div><input class="place" type="text" placeholder="Ваше имя" required></div>
+        <div><input class="place" type="text" placeholder="Ваша фамилия"></div>
+        <div><input class="place" type="text" placeholder="Телефон: +79001117766" required></div>
+        <div><input class="place" type="email" placeholder="Ваш почтовый ящик" required></div>
+
+        <fieldset>
+            <legend>Вы можете подгрузить фото вашего профиля</legend>
+            <div><input  type="file"  accept="image/*"></div>
+        </fieldset>
+
+        <div><input type="checkbox" required>Нажимая данную кнопку, вы соглашаетесь на обработку персональных данных в соответствии с законом №152ФЗ </div>
+        <div><input class="butreg" type="reset" ><input class="butreg" type="submit"></div>
+
+    </fieldset>
+
+    <!-- 1.конечно очень хочется подгрузить плагин регистрации через соц.сети,  но это пока что невозможно. плохо.
+        2. Как сделать подгрузку фото профиля через изображение (прямоугольник с плюсом) -->
+</form>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+.container {
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.row-container {
+    display: flex;
+}
+.column-container
+{
+    display: flex;
+    flex-direction: column;
+}
+.border
+{
+    border: 1px solid green;
+}
+.flex-2 {
+    flex:2;
+}
+.flex-1
+{
+    flex: 1;
+}
+.flex-4
+{
+    flex: 4;
+}
+.flex-5
+{
+    flex: 5;
+}
+.height {
+    height: 300px;
+}
+.grat {
+    background: green;
+}
+.padding {
+    padding: 8px;
+}
+.margin {
+    margin: 5px;
+}
+.justify {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.phone {
+    display: flex;
+   justify-content: flex-end;
+    margin: 0 20px 0 0;
+}
+.map{
+    height: 100%;
+}
+.fon1 {
+    background: #f97c00;
+    color: #ffffee;
+}
